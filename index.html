@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ТОП 30 игр на PS4 — рейтинг лучших игр для PlayStation 4</title>
+<meta name="description" content="Рейтинг 30 лучших игр для PS4: оценки, Metacritic, плюсы и минусы, фильтры по жанрам и поиск. Выберите, во что поиграть сегодня.">
+<meta property="og:title" content="ТОП 30 игр на PS4">
+<meta property="og:description" content="Лучшие игры PlayStation 4 с оценками, плюсами и минусами.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#04081a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="TOP30 PS4 — на главную">TOP<b>30</b> PS4</a>
+    <nav aria-label="Основное меню">
+      <ul>
+        <li><a href="#rating">Рейтинг</a></li>
+        <li><a href="#filters">Жанры</a></li>
+        <li><a href="#about">О сайте</a></li>
+        <li><a href="#button">Соцсети</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <h1 id="h1">ТОП 30 игр <em>на PS4</em></h1>
+      <p>Мы собрали игры, которые действительно стоит установить: от больших эксклюзивов до камерных инди. Фильтруйте по жанру и находите следующую игру за минуту.</p>
+      <a class="btn" href="#filters">Смотреть рейтинг</a>
+    </div>
+  </section>
+
+  <section id="rating" aria-labelledby="h-rating">
+    <div class="wrap">
+      <h2 id="h-rating">Рейтинг игр</h2>
+      <p class="lead">Место в рейтинге показывает наш общий вердикт. Оценка Metacritic указана для сравнения и приблизительна.</p>
+
+      <div class="filters" id="filters" role="search">
+        <div class="fr">
+          <label class="field">Поиск по названию
+            <input id="q" type="search" placeholder="Например, God of War" autocomplete="off">
+          </label>
+          <label class="field">Сортировка
+            <select id="sort">
+              <option value="rank">По месту в рейтинге</option>
+              <option value="year">По году (сначала новые)</option>
+              <option value="score">По оценке</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <div class="sr" id="gl">Фильтр по жанру</div>
+          <div class="chips" id="chips" role="group" aria-labelledby="gl"></div>
+        </div>
+        <p class="count" id="count" aria-live="polite"></p>
+      </div>
+
+      <ul class="list" id="list"></ul>
+      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте другое название или сбросьте жанр.</p>
+    </div>
+  </section>
+
+  <section class="alt" id="about" aria-labelledby="h-about">
+    <div class="wrap">
+      <h2 id="h-about">Как мы составляли рейтинг</h2>
+      <p class="lead">Итоговое место — это баланс шести факторов, а не просто средняя оценка.</p>
+      <div class="grid">
+        <div class="box"><h3>Оценки критиков</h3><p>Смотрим на сводные оценки изданий, но не считаем их единственной правдой.</p></div>
+        <div class="box"><h3>Мнение игроков</h3><p>Учитываем отзывы сообщества и то, как игра стареет спустя годы.</p></div>
+        <div class="box"><h3>Геймплей</h3><p>Приятно ли играть через десять часов, а не только в первые двадцать минут.</p></div>
+        <div class="box"><h3>Сюжет</h3><p>Запоминаются ли герои и история, есть ли у них чем зацепить.</p></div>
+        <div class="box"><h3>Графика и звук</h3><p>Художественный стиль и музыка важнее количества полигонов.</p></div>
+        <div class="box"><h3>Влияние на индустрию</h3><p>Какие идеи игра подарила жанру и насколько её копируют.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-ed">
+    <div class="wrap">
+      <h2 id="h-ed">Выбор редакции</h2>
+      <p class="lead">Если лень листать весь список — начните с этих трёх.</p>
+      <div class="grid">
+        <div class="box pick"><small>Лучший сюжет</small><h3>The Last of Us Part II</h3><p>История, которая спорит с игроком и долго не отпускает после титров.</p></div>
+        <div class="box pick"><small>Лучший мультиплеер</small><h3>Overwatch</h3><p>Яркие герои, короткие матчи и понятные роли — легко вовлечься с друзьями.</p></div>
+        <div class="box pick"><small>Лучшая игра для компании</small><h3>It Takes Two</h3><p>Кооператив на двоих с новой идеей на каждом уровне. Скучать не дадут.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" aria-labelledby="h-faq">
+    <div class="wrap">
+      <h2 id="h-faq">Частые вопросы</h2>
+      <div class="faq">
+        <details><summary>Какие игры для PS4 можно запустить на PS5?</summary><p>Подавляющее большинство игр PS4 работает на PS5 благодаря обратной совместимости. У части проектов есть улучшенные версии — проверяйте их в PlayStation Store.</p></details>
+        <details><summary>Что значит «эксклюзив PS4»?</summary><p>Игру разработали специально для PlayStation и выпустили только на ней. Часть таких игр позже вышла и на других платформах, но на момент релиза была эксклюзивом.</p></details>
+        <details><summary>С какой игры начать новичку?</summary><p>God of War или Marvel’s Spider-Man: понятное управление, сильная подача и хороший темп. Если хочется приключений — Uncharted 4.</p></details>
+        <details><summary>Что такое оценка Metacritic?</summary><p>Это средний балл, собранный из рецензий крупных изданий. Мы показываем его для ориентира, но итоговое место определяет наш рейтинг.</p></details>
+        <details><summary>Как часто обновляется рейтинг?</summary><p>Мы пересматриваем список, когда выходят значимые обновления или большие релизы. Данные хранятся в одном массиве, поэтому правки быстрые.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="button">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <a class="logo" href="#top">TOP<b>30</b> PS4</a>
+        <p style="margin-top:10px;max-width:34ch">Независимый рейтинг лучших игр для PlayStation 4.</p>
+      </div>
+      <div>
+        
+      </div>
+      <div>
+        <h3>Мы в соцсетях</h3>
+        <a class="tg-pill" href="https://t.me/+N7yDUW9mYGQ4YmEy" target="_blank" rel="noopener" aria-label="Подписаться на наш Telegram-канал">
+          <span class="tg-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M21.9 4.3 2.9 11.6c-1.3.5-1.3 1.3-.2 1.6l4.9 1.5 1.9 5.8c.2.6.4.8.9.8s.7-.2 1-.5l2.4-2.3 4.9 3.6c.9.5 1.5.2 1.8-.8l3.2-15.2c.3-1.3-.5-1.9-1.8-1.4zM9 14.1l9.3-5.9c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.3-1.9-4.5z"/></svg>
+          </span>
+          <span class="tg-txt"><strong>Мы в Telegram</strong><small>Портфолио</small></span>
+        </a>
+      </div>
+    </div>
+    <p class="disc">© 2026 TOP30 PS4. Сайт неофициальный и не связан с Sony Interactive Entertainment. Названия игр, логотипы и торговые марки принадлежат их владельцам. Оценки Metacritic приблизительны — сверяйте актуальные данные на metacritic.com.</p>
+  </div>
+</footer>
+
+<script>
+/* Жанры и теги */
+const GENRES={action:"Экшен",rpg:"RPG",adventure:"Приключения",shooter:"Шутеры",racing:"Гонки",sport:"Спорт",indie:"Инди",horror:"Хоррор"};
+const TAGS={s:"Одиночная",k:"Кооператив",m:"Мультиплеер",e:"Эксклюзив PS4"};
+
+/* ДАННЫЕ ИГР. Порядок строк = место в рейтинге.
+   Поля: название, год, жанр, оценка (из 10), Metacritic, теги (s/k/m/e), описание, плюсы (через ;), минусы (через ;)
+   Обложки: положите файлы covers/1.jpg … covers/30.jpg (номер = место в рейтинге),
+   либо укажите свой путь в поле img ниже. Нет файла — покажется градиентная заглушка. */
+const RAW=[
+["The Last of Us Part II",2020,"adventure",9.8,93,"se","История выживания и мести в разрушенной Америке, где у каждого поступка есть цена. Жёсткие бои и потрясающая детализация.","Сильнейший сюжет;Достоверная анимация","Тяжёлая тема;Неспешный темп"],
+["God of War",2018,"action",9.7,94,"se","Кратос и его сын идут через мир скандинавских мифов. Тяжёлый топор, камера без склеек и неожиданно тёплая история.","Боевая система;Цельная подача","Однотипные задания;Мало боссов"],
+["Red Dead Redemption 2",2018,"adventure",9.7,97,"sm","Дикий Запад на закате эпохи и банда в бегах. Огромный мир, где просто интересно жить.","Живой мир;Герой Артур Морган","Медленный старт;Тяжёлое управление"],
+["The Witcher 3: Wild Hunt",2015,"rpg",9.6,92,"s","Геральт ищет Цири среди интриг и чудовищ. Побочные квесты тут часто лучше основных сюжетов у других игр.","Квесты;Объём контента","Неуклюжая боёвка;Мелкие баги"],
+["Bloodborne",2015,"rpg",9.6,92,"se","Готический Ярнам и охота на чудовищ в ритме агрессии. Мрачная, странная и очень цепляющая.","Атмосфера;Скорость боёв","Высокий порог входа;30 кадров в секунду"],
+["Persona 5 Royal",2020,"rpg",9.5,95,"s","Днём школьник, ночью вор сердец в Токио. Стильная JRPG на сотню часов с запоминающейся музыкой.","Стиль и музыка;Персонажи","Долгие вступления;Много текста"],
+["Uncharted 4: Путь вора",2016,"adventure",9.5,93,"se","Нейтан Дрейк ищет пиратский клад и разбирается с прошлым. Кинематографичные погони и красивые локации.","Постановка;Динамика","Однотипные перестрелки;Мало головоломок"],
+["Marvel’s Spider-Man",2018,"action",9.4,87,"se","Питер Паркер в Нью-Йорке: полёты на паутине и Доктор Осьминог. Одно из лучших перемещений по городу в играх.","Полёты на паутине;Боёвка","Однотипные побочки;Слабая скрытность"],
+["Horizon Zero Dawn",2017,"rpg",9.3,89,"se","Охотница Элой сражается с роботами-динозаврами в мире после людей. Тактические бои и интригующая тайна.","Охота на машин;Красивый мир","Вялые диалоги;Слабые бои с людьми"],
+["Ghost of Tsushima",2020,"action",9.2,83,"ske","Самурай Дзин защищает остров от захватчиков. Красивые дуэли и ветер вместо маркеров на карте.","Дуэли;Красота кадра","Типичные активности;Простая скрытность"],
+["Hades",2021,"indie",9.2,93,"s","Побег из подземного царства снова и снова, и каждая смерть двигает сюжет. Быстрый экшен и отличные диалоги.","Сюжет через роглайк;Стиль","Нужна усидчивость;Случайность билдов"],
+["Celeste",2018,"indie",9.1,92,"s","Платформер о восхождении на гору и борьбе с тревогой. Точное управление и помощь для тех, кому сложно.","Управление;Режим помощи","Высокая сложность;Короткая"],
+["Resident Evil 2",2019,"horror",9.1,91,"s","Ремейк культового хоррора: Раккун-сити, зомби и неумолимый Тиран. Хорошо держит напряжение и экономит патроны.","Атмосфера;Ресурсы в дефиците","Короткая кампания;Тиран раздражает"],
+["DOOM Eternal",2020,"shooter",9.0,87,"s","Быстрые схватки, где надо прыгать, рубить и стрелять без остановки. Чистый драйв и тяжёлая музыка.","Динамика;Музыка","Высокий темп не для всех;Мало сюжета"],
+["Titanfall 2",2016,"shooter",9.0,89,"sm","Пилот и робот BT-7274 в отличной кампании, плюс быстрые онлайн-бои с беготнёй по стенам.","Кампания;Паркур","Короткая;Онлайн почти пуст"],
+["Overwatch",2016,"shooter",8.9,91,"m","Командный шутер с яркими героями и понятными ролями. Подойдёт даже тем, кто не любит шутеры.","Разнообразие героев;Баланс","Зависит от команды;Токсичный чат"],
+["Rocket League",2015,"sport",8.9,86,"sm","Футбол на машинах: легко начать, трудно бросить. Матчи по пять минут.","Простота;Физика","Кривая мастерства;Платные наборы"],
+["Gran Turismo Sport",2017,"racing",8.8,75,"sme","Симулятор с упором на онлайн-заезды и настоящий автоспорт. Красивые трассы и приятная физика.","Ощущение управления;Вид машин","Скудная кампания;Нужен интернет"],
+["Dark Souls III",2016,"rpg",8.8,89,"s","Тёмное фэнтези и боссы, не прощающие ошибок. Достойный финал серии с отличным дизайном уровней.","Боссы;Дизайн уровней","Высокий порог входа;Мало подсказок"],
+["NieR: Automata",2017,"rpg",8.7,88,"s","Андроиды после конца света, философия и смена жанров на ходу. Играть стоит ради концовок.","Сюжет;Музыка","Простая графика;Однотипные локации"],
+["Monster Hunter: World",2018,"action",8.7,90,"sk","Охота на гигантских монстров в компании друзей. Каждый зверь — головоломка со своим ритмом.","Кооператив;Глубина оружия","Высокий порог входа;Повторяющийся цикл"],
+["Final Fantasy VII Remake",2020,"rpg",8.6,87,"s","Первая часть ремейка: Мидгар, Клауд и эффектные сражения. Запоминающиеся герои и саундтрек.","Боевая система;Персонажи","Коридорные уровни;Неполная история"],
+["Death Stranding",2019,"adventure",8.6,82,"s","Доставка грузов по опустевшей Америке — странное, медитативное путешествие. Не похожа ни на что другое.","Атмосфера;Оригинальность","Не для всех;Монотонность"],
+["Detroit: Become Human",2018,"adventure",8.5,78,"se","Интерактивная драма о трёх андроидах, где каждая сцена — развилка. Выбор реально меняет судьбы героев.","Ветвистый сюжет;Постановка","Простая механика;Предсказуемые повороты"],
+["Until Dawn",2015,"horror",8.5,79,"se","Интерактивное кино про вечеринку в горах и маньяка. Ваши решения определяют, кто доживёт до утра.","Выбор и последствия;Атмосфера","Линейный геймплей;Короткая"],
+["It Takes Two",2021,"adventure",8.4,88,"k","Кооперативное приключение для двоих: в каждом уровне своя механика. В одиночку не пройти.","Идеи на каждом уровне;Кооператив","Нельзя играть одному;Простой сюжет"],
+["Stardew Valley",2016,"indie",8.4,89,"s","Ферма, деревня и неспешные дни — игра, в которой легко потеряться на сотни часов. Уютный способ отдохнуть.","Расслабляет;Объём","Много рутины;Медленный старт"],
+["Hollow Knight",2018,"indie",8.3,87,"s","Мрачный подземный мир жуков, исследования и жёсткие боссы. Огромная карта и красивая музыка.","Мир и карта;Музыка","Легко заблудиться;Высокая сложность"],
+["Tony Hawk’s Pro Skater 1 + 2",2020,"sport",8.3,88,"sm","Ремейки двух классических скейт-игр: простые трюки, знакомые парки и ностальгия.","Ностальгия;Управление","Мало новинок;Короткие цели"],
+["Resident Evil 7: Biohazard",2017,"horror",8.2,86,"s","Ужас от первого лица в доме семьи Бейкеров. Возвращение серии к страху и выживанию.","Атмосфера;Режим VR","Слабый финал;Однотипные враги"]
+];
+const GAMES=RAW.map(([title,year,genre,score,meta,tags,desc,pros,cons],i)=>({
+  rank:i+1,title,year,genre,score,meta,tags:[...tags],desc,
+  pros:pros.split(";"),cons:cons.split(";"),img:""
+}));
+
+/* Рендер */
+const $=id=>document.getElementById(id);
+const state={g:"all",q:"",sort:"rank"};
+const hue=t=>[...t].reduce((h,c)=>(h*31+c.charCodeAt(0))%360,0);
+
+function cardHTML(g,i){
+  const medal=g.rank<=3?" r"+g.rank:"";
+  const src=g.img||`covers/${g.rank}.jpg`;
+  const cover=`<div class="cover" role="img" aria-label="Обложка игры ${g.title}"><span class="place" aria-label="Место ${g.rank}">${g.rank}</span><img src="${src}" alt="" loading="lazy" onerror="this.remove()"><strong>${g.title}</strong></div>`;
+  return `<li><article class="card${medal}" style="--h:${hue(g.title)};--i:${Math.min(i,12)}">
+    ${cover}
+    <div class="body">
+      <h3>${g.title}</h3>
+      <p class="meta">${g.year} · ${GENRES[g.genre]}</p>
+      <div class="scores"><span class="score">${g.score.toFixed(1)}<small>/10</small></span><span class="mc" title="Оценка Metacritic">Metacritic ${g.meta}</span></div>
+      <p class="desc">${g.desc}</p>
+      <ul class="tags">${g.tags.map(t=>`<li${t==="e"?' class="ex"':""}>${TAGS[t]}</li>`).join("")}</ul>
+      <button class="tg" aria-expanded="false" aria-controls="m${g.rank}">Подробнее</button>
+      <div class="more" id="m${g.rank}" hidden>
+        <div class="pl"><h4>Плюсы</h4><ul>${g.pros.map(p=>`<li>${p}</li>`).join("")}</ul></div>
+        <div class="mi"><h4>Минусы</h4><ul>${g.cons.map(p=>`<li>${p}</li>`).join("")}</ul></div>
+      </div>
+    </div></article></li>`;
+}
+
+function render(){
+  const q=state.q.trim().toLowerCase();
+  const list=GAMES
+    .filter(g=>(state.g==="all"||g.genre===state.g)&&g.title.toLowerCase().includes(q))
+    .sort((a,b)=>state.sort==="year"?b.year-a.year||a.rank-b.rank
+                :state.sort==="score"?b.score-a.score||a.rank-b.rank
+                :a.rank-b.rank);
+  $("list").innerHTML=list.map(cardHTML).join("");
+  $("empty").hidden=list.length>0;
+  $("count").textContent=`Показано игр: ${list.length} из ${GAMES.length}`;
+}
+
+/* Чипы жанров */
+$("chips").innerHTML=[["all","Все"],...Object.entries(GENRES)]
+  .map(([k,v])=>`<button class="chip" data-g="${k}" aria-pressed="${k==="all"}">${v}</button>`).join("");
+$("chips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b) return;
+  state.g=b.dataset.g;
+  $("chips").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));
+  render();
+});
+$("q").addEventListener("input",e=>{state.q=e.target.value;render()});
+$("sort").addEventListener("change",e=>{state.sort=e.target.value;render()});
+
+/* Кнопка «Подробнее» */
+$("list").addEventListener("click",e=>{
+  const b=e.target.closest(".tg"); if(!b) return;
+  const open=b.getAttribute("aria-expanded")==="true";
+  b.setAttribute("aria-expanded",!open);
+  b.textContent=open?"Подробнее":"Свернуть";
+  $(b.getAttribute("aria-controls")).hidden=open;
+});
+
+render();
+</script>
+</body>
+</html>
